@@ -153,6 +153,10 @@ After running `npm start`, open your browser to `http://localhost:3000`.
         *   Fill all fields validly (e.g., Campaign Name "My Ad", Ad Text "Great ad copy", CTA "Buy Now", Music Option "No Music" with Objective "Traffic").
         *   _Expected_: `alert` "Ad created successfully with ID: ad_\[timestamp]". Form fields clear.
 
+## Live Video Link 
+* <a href="https://ad-manager-phi.vercel.app/">Live Link</a>
+
+
 ## UI/UX Enhancements
 
 Beyond the basic requirements, the application's UI has been significantly enhanced for a professional and engaging experience:
@@ -167,7 +171,6 @@ Beyond the basic requirements, the application's UI has been significantly enhan
 
 ## What Would Be Improved with More Time
 
-*   **Custom Modals/Toasts**: Replacing native `alert()` calls with custom React modals or toast notifications for a more integrated UX.
 *   **Robust State Management**: For a larger app, a state management library (e.g., Redux, Zustand) would provide more centralized control and predictability.
 *   **Loading Skeletons/Spinners**: More sophisticated loading indicators instead of just "Loading..." text.
 *   **Form Library**: Integration with a form library like Formik or React Hook Form for more streamlined form handling and validation.
